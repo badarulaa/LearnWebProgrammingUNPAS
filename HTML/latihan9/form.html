@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Form</title>
+</head>
+<body>
+
+<table border="1", cellpadding="5" cellspacing="0">
+	<form>
+		<tr>
+			<td><label for="username">username :</label> <!-- label = memudahkan pemilihan form --></td>
+			<td><input type="text" id="username"></td>
+		</tr>
+		<tr>
+			<td><label for="password">password :</label></td>
+			<td><input type="password" id="password"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<input type="radio" name="jenkel" id="pria"><label for="pria">Pria</label> <!--  name = untuk grouping, wajib untuk radio button -->
+					<input type="radio" name="jenkel" id="wanita"><label for="wanita">Wanita</label>
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label> <!--  untuk memilih beberapa -->
+					<input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+					<input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td>Pilih Kota :</td>
+			<td>
+				<select> <!-- dropdown -->
+					<option>Jakarta</option>
+					<option>Bandung</option>
+					<option>Surabaya</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea>Masukkan Keterangan</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<center>
+					<button type="submit">Submit</button>
+				</center>
+			</td>
+		</tr>
+	</form>
+</table>
+
+</body>
+</html>
