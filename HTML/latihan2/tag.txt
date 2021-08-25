@@ -1,0 +1,33 @@
+tag yang ada di dalam head :
+- <title> = judul halaman
+- <style> = CSS
+- <script> = javascript
+- <meta> = metadata
+
+tag yang ada di dalam body :
+- <h1> - <h6> <p> = teks
+- <br> <hr> <em> <strong> = pendukung teks
+- <img> = gambar
+- <a> = hyperlink
+- <ul> <li> <ol> <dl> <dt> <dd> = list
+- <table> <thead> <tbody> = tabel
+- <form> <input> <select> <button> = form
+- <script> = script
+- <object> = object
+- <div> <span> = grouping
+- <!-- komentar --> = komentar
+
+struktur tag :
+- <namatag atribut = "nilai">
+contoh : <body bgcolor = "lightblue">
+(sebuah tag boleh memiliki beberapa atribut)
+
+atribut global :
+- accesskey : untuk menentukan elemen bisa diakses menggunakan keyboard
+- class : tanda
+- id : tanda
+- dir : arah tulisan (direction)
+- lang : language
+- style : inline CSS
+- tabindex : urutan form
+- title : judul

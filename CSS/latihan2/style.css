@@ -1,0 +1,18 @@
+h1 {
+	color: lightblue;
+	font-family: georgia, sans-serif; /* font-family : macam macam font, generic font (sans-serif, serif) */
+	font-size: 50px; /* ukuran font */
+	font-variant: small-caps; /* menjadikan huruf caps (normal, caps)*/
+	font-style: italic; /* untuk menjadikan font normal, italic, dan oblique */
+}
+
+p {
+	font-family: georgia, arial, serif;
+	line-height: 20px; /* untuk mengatur ketinggian file/paragraf (normal, px, em) */
+}
+
+/* css font shorthand :
+h1 {font: italic normal bold 16px/18px helvetica, arial, sans-serif;} 
+font-style font-variant font-weight font-size line-height font-family 
+optional : font-style, font-variant, font-weight, line-height
+wajib : font-size, font-family */

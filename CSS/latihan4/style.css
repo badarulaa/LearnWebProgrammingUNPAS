@@ -1,0 +1,35 @@
+/*
+backgroud (terletak pada body) :
+background-color :
+mengatur warna pada background
+background-image :
+mengatur gambar yang akan digunakan pada background
+background-position :
+mengatur posisi gambar pada background
+background-repeat :
+mengatur jenis pengulangan gambar pada background
+
+*/
+
+body {
+	background-color: lightskyblue;
+	background-image: url(moroccan-flower.png);
+	background-repeat: repeat-x; 
+	/* 
+	repeat : secara default adalah repeat,
+	repeat-x : untuk vertikal, 
+	repeat-y : untuk horizontal, 
+	no-repeat : bisa menggunakan tag background-position */
+	/*
+	background-position :
+	top left, top center, top right,
+	center left, center center, center right,
+	bottom left, bottom center, bottom right,
+	x% y%, x-pos y-pos
+	*/
+}
+
+/*
+css background shorthand :
+background : color url() position repeat;
+*/

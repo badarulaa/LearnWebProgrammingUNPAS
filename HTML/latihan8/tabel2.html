@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tabel 2</title>
+</head>
+<body>
+
+<!-- table default -->
+<table border="1", cellspacing="0", cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		<td>1,3</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+
+<hr>
+
+<!-- merging colspan -->
+<table border="1", cellspacing="0", cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td colspan="2">Colspan 2</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+
+<hr>
+
+<!-- merging row -->
+<table border="1", cellspacing="0", cellpadding="5">
+	<tr>
+		<td rowspan="3">Rowspan 3</td>
+		<td colspan="2">Colspan 2</td>
+	</tr>
+	<tr>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+
+<hr>
+
+<!-- task -->
+<table border="1", cellspacing="0", cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		<td>1,3</td>
+		<td>1,4</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td colspan="2" rowspan="2"><center>?</center></td>
+		<td>2,4</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,4</td>
+	</tr>
+	<tr>
+		<td>4,1</td>
+		<td>4,2</td>
+		<td>4,3</td>
+		<td>4,4</td>
+	</tr>
+</table>
+
+</body>
+</html>

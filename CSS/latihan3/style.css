@@ -1,0 +1,28 @@
+/*  
+Text Styling :
+color : 
+memberi warna pada tulisan (nama warna "red", hexadecimal "#ff0000", rgb "255,0,0")
+text-align :
+mengatur format paragraf / teks (left, right, center, justify)
+text-indent :
+memberi indentasi pada paragraf / teks (px, %)
+text-decoration :
+mengatur dekorasi pada teks (none, underline, overline, line-through)
+text-transform :
+mengubah jenis huruf menjadi huruf besar, kecil / kapital (none, lowercase, uppercase, capitalize)
+letter-spacing :
+mengatur spasi antar huruf (normal, px)
+word-spacing :
+mengatur spasi antar kata (normal, px)
+ */
+
+ h1 {
+ 	font-size: 50px;
+ 	color: blue;
+ 	text-decoration: overline;
+ }
+
+ p {
+ 	text-align: justify;
+ 	text-indent: 25px;
+ }
